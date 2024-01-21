@@ -1,0 +1,106 @@
+
+*{
+    margin: 0px;
+    padding: 0px
+}.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.leftbox{
+    background-color: rgba(39, 39, 206, 0.879);
+    height: 100vh;
+    width: 50%;
+    padding-left:1rem;
+    font-size: 1.5rem;
+    display: flex;
+   /* margin-top: 5rem; */
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.rightbox{
+    padding-left: 2rem;
+}
+#headbtn{
+    height: 2rem;
+}
+#points{
+    margin-right: 14rem;
+}
+#filling{
+    height: 2rem;
+    width: 25rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 0.6rem;
+}
+button{
+    height: 2.5rem;
+    width: 6rem;
+    font-size:large ;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(43, 43, 216, 0.843);
+    color: aliceblue;
+}
+ 
+.box2{
+    height: 10rem;
+    width: 10rem;
+    background-color: black;
+    opacity:0.2;
+    /* transform: rotate(deg); 
+    transition-duration: 1s;
+    transition-delay:1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    animation:kuchbhi 3s infinite linear;
+    animation-name: kuchbhi;
+    }
+    @keyframes kuchbhi{
+     
+   0%{
+    transform:rotate(0deg);
+
+   }
+   /* 50%{
+    transform:rotate(180deg);
+   } */
+   100%{
+    transform:rotate(360deg);
+   }
+
+    }
+     /* .box3{
+        height: 10rem;
+        width: 10rem;
+        background-color:rgb(44, 44, 202);
+        position: absolute;
+        
+    }*/
+    .box3{
+        height: 10rem;
+        width: 10rem;
+        background-color:rgba(43, 43, 216, 0.843);;
+    
+    } 
+     .overlap{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        height: 12rem;
+        width: 12rem;
+        background-color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation:kuchbhi 3s infinite linear;
+        animation-name: kuchbhi;
+        opacity: 0.2;
+    } 
+    #msg{
+        color: red;
+       
+    }
